@@ -39,7 +39,7 @@ CREATE TABLE ProductInventory (
 );
 --rollback DROP TABLE ProductInventory;
 
---changeset Andrii.Shafran:5 labels:0.0.2
+--changeset Andriy.Shafran:5 labels:0.0.2
 CREATE TABLE Users (
     ID INT AUTO_INCREMENT,
     FirstName VARCHAR(50),
@@ -49,6 +49,6 @@ CREATE TABLE Users (
 );
 --rollback DROP TABLE Users;
 
---changeset Andrii.Shafran:6 labels:0.0.3
+--changeset Andriy.Shafran:6 labels:0.0.3
 CREATE INDEX Email ON Users (Email);
 --rollback DROP INDEX Email ON Users;
